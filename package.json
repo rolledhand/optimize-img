@@ -1,6 +1,6 @@
 {
   "name": "optimg-cli",
-  "version": "1.2.2",
+  "version": "1.2.3",
   "description": "High-performance image optimization CLI with modern format support, bulk processing, and presets for developers",
   "main": "src/index.js",
   "bin": {
@@ -68,6 +68,7 @@
     "docs/",
     "LICENSE"
   ],
+  "bundledDependencies": ["sharp"],
   "publishConfig": {
     "access": "public"
   }
